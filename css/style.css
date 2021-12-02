@@ -1,0 +1,97 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;
+    margin: 40px 0px 80px 50px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 500px;
+    margin: 20px 0px;
+}
+
+p {
+    font-size: 17px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    color: rgb(251, 238, 255);
+    margin-bottom: 24px;
+}
+
+button {
+    padding: 11px 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 40px;
+    color: violet;
+    background-color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 7px 9px rgba(0, 0, 0, 0.281);
+    
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-left: 15px;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding:  0px 50px;
+}
+
+.right{
+margin-top: 25px;
+margin-left: 90px;
+
+
+}
+
+button:hover{
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+}
+
+.image{
+    width: 600px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: end;
+    padding: 0px 45px 0px ;
+
+}
+
+.icon:hover{
+    border: 2px solid violet;
+cursor: pointer;
+}
+
+.icon:hover i{
+    color: violet;
+}
